@@ -6,8 +6,32 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6FE44FDD2CE7A7D400589C58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE44FCF2CE7A7D400589C58 /* LaunchScreen.storyboard */; };
+		6FE44FDE2CE7A7D400589C58 /* readme-end-banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FE44FD62CE7A7D400589C58 /* readme-end-banner.png */; };
+		6FE44FDF2CE7A7D400589C58 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6FE44FD92CE7A7D400589C58 /* README.md */; };
+		6FE44FE02CE7A7D400589C58 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6FE44FCD2CE7A7D400589C58 /* Info.plist */; };
+		6FE44FE12CE7A7D400589C58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE44FCC2CE7A7D400589C58 /* Assets.xcassets */; };
+		6FE44FE22CE7A7D400589C58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE44FD12CE7A7D400589C58 /* Main.storyboard */; };
+		6FE44FE32CE7A7D400589C58 /* AppBreweryBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FE44FD52CE7A7D400589C58 /* AppBreweryBanner.png */; };
+		6FE44FE42CE7A7D400589C58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE44FD22CE7A7D400589C58 /* SceneDelegate.swift */; };
+		6FE44FE52CE7A7D400589C58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE44FD32CE7A7D400589C58 /* ViewController.swift */; };
+		6FE44FE62CE7A7D400589C58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE44FCB2CE7A7D400589C58 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		6FE44FB12CE7A46700589C58 /* DiceeTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceeTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE44FCB2CE7A7D400589C58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FE44FCC2CE7A7D400589C58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FE44FCD2CE7A7D400589C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FE44FCE2CE7A7D400589C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FE44FD02CE7A7D400589C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FE44FD22CE7A7D400589C58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6FE44FD32CE7A7D400589C58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6FE44FD52CE7A7D400589C58 /* AppBreweryBanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppBreweryBanner.png; sourceTree = "<group>"; };
+		6FE44FD62CE7A7D400589C58 /* readme-end-banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "readme-end-banner.png"; sourceTree = "<group>"; };
+		6FE44FD82CE7A7D400589C58 /* Dicee-iOS13.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Dicee-iOS13.xcodeproj"; sourceTree = "<group>"; };
+		6FE44FD92CE7A7D400589C58 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +56,7 @@
 		6FE44FA82CE7A46700589C58 = {
 			isa = PBXGroup;
 			children = (
+				6FE44FDA2CE7A7D400589C58 /* Dicee-iOS13 */,
 				6FE44FB32CE7A46700589C58 /* DiceeTutorial */,
 				6FE44FB22CE7A46700589C58 /* Products */,
 			);
@@ -41,6 +66,47 @@
 			isa = PBXGroup;
 			children = (
 				6FE44FB12CE7A46700589C58 /* DiceeTutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FE44FD42CE7A7D400589C58 /* Dicee-iOS13 */ = {
+			isa = PBXGroup;
+			children = (
+				6FE44FCB2CE7A7D400589C58 /* AppDelegate.swift */,
+				6FE44FCC2CE7A7D400589C58 /* Assets.xcassets */,
+				6FE44FCD2CE7A7D400589C58 /* Info.plist */,
+				6FE44FCF2CE7A7D400589C58 /* LaunchScreen.storyboard */,
+				6FE44FD12CE7A7D400589C58 /* Main.storyboard */,
+				6FE44FD22CE7A7D400589C58 /* SceneDelegate.swift */,
+				6FE44FD32CE7A7D400589C58 /* ViewController.swift */,
+			);
+			path = "Dicee-iOS13";
+			sourceTree = "<group>";
+		};
+		6FE44FD72CE7A7D400589C58 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				6FE44FD52CE7A7D400589C58 /* AppBreweryBanner.png */,
+				6FE44FD62CE7A7D400589C58 /* readme-end-banner.png */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+		6FE44FDA2CE7A7D400589C58 /* Dicee-iOS13 */ = {
+			isa = PBXGroup;
+			children = (
+				6FE44FD42CE7A7D400589C58 /* Dicee-iOS13 */,
+				6FE44FD72CE7A7D400589C58 /* Documentation */,
+				6FE44FD82CE7A7D400589C58 /* Dicee-iOS13.xcodeproj */,
+				6FE44FD92CE7A7D400589C58 /* README.md */,
+			);
+			path = "Dicee-iOS13";
+			sourceTree = "<group>";
+		};
+		6FE44FDB2CE7A7D400589C58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +163,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6FE44FB22CE7A46700589C58 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6FE44FDB2CE7A7D400589C58 /* Products */;
+					ProjectRef = 6FE44FD82CE7A7D400589C58 /* Dicee-iOS13.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6FE44FB02CE7A46700589C58 /* DiceeTutorial */,
@@ -109,6 +181,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FE44FDD2CE7A7D400589C58 /* LaunchScreen.storyboard in Resources */,
+				6FE44FDE2CE7A7D400589C58 /* readme-end-banner.png in Resources */,
+				6FE44FDF2CE7A7D400589C58 /* README.md in Resources */,
+				6FE44FE02CE7A7D400589C58 /* Info.plist in Resources */,
+				6FE44FE12CE7A7D400589C58 /* Assets.xcassets in Resources */,
+				6FE44FE22CE7A7D400589C58 /* Main.storyboard in Resources */,
+				6FE44FE32CE7A7D400589C58 /* AppBreweryBanner.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,10 +198,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FE44FE42CE7A7D400589C58 /* SceneDelegate.swift in Sources */,
+				6FE44FE52CE7A7D400589C58 /* ViewController.swift in Sources */,
+				6FE44FE62CE7A7D400589C58 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6FE44FCF2CE7A7D400589C58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FE44FCE2CE7A7D400589C58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6FE44FD12CE7A7D400589C58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FE44FD02CE7A7D400589C58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6FE44FBD2CE7A46800589C58 /* Debug */ = {
